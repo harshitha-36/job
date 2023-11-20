@@ -1,5 +1,5 @@
 import { Grid, Typography } from "@material-ui/core";
-import videobg from '../play/video.mp4'
+import videobg from '../play/video2.mp4'
 
 const Welcome =() => {
   return (

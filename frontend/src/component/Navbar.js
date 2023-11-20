@@ -58,7 +58,7 @@ const Navbar = (props) => {
   };
 
   return (
-    <AppBar position="fixed" style={{ backgroundColor: '#743089' }}>
+    <AppBar position="fixed" style={{ backgroundColor: '#9002ec' }}>
       <Toolbar>
         <Typography variant="h6" className={classes.title} style={{ fontFamily: '', fontStyle: 'sans-serif', fontWeight: 'bold', color: 'white' }}>
           JOB BOARD

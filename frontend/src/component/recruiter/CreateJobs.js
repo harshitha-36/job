@@ -35,8 +35,8 @@ const CreateJobs = (props) => {
 
   const [jobDetails, setJobDetails] = useState({
     title: "",
-    maxApplicants: 100,
-    maxPositions: 30,
+    maxApplicants: 50,
+    maxPositions: 10,
     deadline: new Date(new Date().getTime() + 10 * 24 * 60 * 60 * 1000)
       .toISOString()
       .substr(0, 16),
